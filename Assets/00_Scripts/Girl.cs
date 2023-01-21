@@ -29,6 +29,7 @@ public class Girl : MonoBehaviour
         {
             // transform.Translate(Vector3.forward * Time.deltaTime * speed);
             // _anim.SetBool("isWalk", true);
+            transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
         }
         if (!Input.GetKey(KeyCode.W))
         {
@@ -42,11 +43,11 @@ public class Girl : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-           transform.Translate(- Time.deltaTime*speed, 0, 0, Camera.main.transform);
+           //transform.Translate(- Time.deltaTime*speed, 0, 0, Camera.main.transform);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Time.deltaTime*speed, 0, 0, Camera.main.transform);
+            //transform.Translate(Time.deltaTime*speed, 0, 0, Camera.main.transform);
         }
   
     }

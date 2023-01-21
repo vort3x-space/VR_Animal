@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cigdem.unity
-    guid: 1f5351f96d2b11643af1c2af639dfe93
+    path: Assets/Fantasy Forest Environment/Scenes/DemoScene_Summer.unity
+    guid: e1928419cd94a9041bb6b3edeffc2ded
   m_configObjects: {}
